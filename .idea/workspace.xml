@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bc71dcf-4f1c-497f-a6d0-227f71a69062" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POOSemana3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/CuentaLimite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/CuentaMovimientos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Factura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Fecha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Movimientos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarFactura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarFecha.java" afterDir="false" />
+    <list default="true" id="9bc71dcf-4f1c-497f-a6d0-227f71a69062" name="Changes" comment="1 de Julio">
+      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/excepciones/ExcepcionFueraRango.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/excepciones/ExcepcionNotaInvalida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarAlumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +23,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2igBsgHzX3EUw0Pqo3lD9VtzVwF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ProbarAlumno.executor": "Run",
     "Application.ProbarFactura.executor": "Run",
     "Application.ProbarFecha.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -57,7 +56,20 @@
       <recent name="C:\Users\ggp20\Documents\Cursos2024\IFCT0609-CoreNetworks-2024\Proyectos\POOSemana3\src\com\corenetwoks\modelo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProbarFactura">
+  <component name="RunManager" selected="Application.ProbarAlumno">
+    <configuration name="ProbarAlumno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarAlumno" />
+      <module name="POOSemana3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProbarFactura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarFactura" />
       <module name="POOSemana3" />
@@ -86,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProbarAlumno" />
         <item itemvalue="Application.ProbarFactura" />
         <item itemvalue="Application.ProbarFecha" />
       </list>
@@ -100,6 +113,19 @@
       <option name="presentableId" value="Default" />
       <updated>1719819829739</updated>
     </task>
+    <task id="LOCAL-00001" summary="1 de Julio">
+      <option name="closed" value="true" />
+      <created>1719834890721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719834890721</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1 de Julio" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 de Julio" />
   </component>
 </project>
