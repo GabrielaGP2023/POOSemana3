@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bc71dcf-4f1c-497f-a6d0-227f71a69062" name="Changes" comment="2 de Julio">
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarColecciones.java" afterDir="false" />
+    <list default="true" id="9bc71dcf-4f1c-497f-a6d0-227f71a69062" name="Changes" comment="3 de Julio">
+      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Alarma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Cafetera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/ComponenteCoche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Linea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Puerta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/PuertaBloqueable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/PuertaCoche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Punto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarCafetera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarCoche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/PruebaLinea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarColecciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarColecciones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,13 +48,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ProbarAlumno.executor": "Run",
+    "Application.ProbarCafetera.executor": "Run",
+    "Application.ProbarCoche.executor": "Run",
     "Application.ProbarColecciones.executor": "Run",
     "Application.ProbarFactura.executor": "Run",
     "Application.ProbarFecha.executor": "Run",
+    "Application.PruebaLinea.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ggp20/Documents/Cursos2024/IFCT0609-CoreNetworks-2024/Proyectos/POOSemana3/src/com/corenetworks/presentacion",
+    "last_opened_file_path": "C:/Users/ggp20/Documents/Cursos2023/Probar_Proyectos_alumnos/Programador-Java-SE-main/Java_Basicos",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -54,9 +69,35 @@
       <recent name="C:\Users\ggp20\Documents\Cursos2024\IFCT0609-CoreNetworks-2024\Proyectos\POOSemana3\src\com\corenetwoks\modelo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProbarColecciones">
+  <component name="RunManager" selected="Application.ProbarCoche">
     <configuration name="ProbarAlumno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarAlumno" />
+      <module name="POOSemana3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProbarCafetera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarCafetera" />
+      <module name="POOSemana3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProbarCoche" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarCoche" />
       <module name="POOSemana3" />
       <extension name="coverage">
         <pattern>
@@ -81,21 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProbarFactura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarFactura" />
-      <module name="POOSemana3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProbarFecha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarFecha" />
+    <configuration name="PruebaLinea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.PruebaLinea" />
       <module name="POOSemana3" />
       <extension name="coverage">
         <pattern>
@@ -109,10 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProbarCoche" />
+        <item itemvalue="Application.ProbarCafetera" />
+        <item itemvalue="Application.PruebaLinea" />
         <item itemvalue="Application.ProbarColecciones" />
         <item itemvalue="Application.ProbarAlumno" />
-        <item itemvalue="Application.ProbarFactura" />
-        <item itemvalue="Application.ProbarFecha" />
       </list>
     </recent_temporary>
   </component>
@@ -141,12 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719906972400</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3 de Julio">
+      <option name="closed" value="true" />
+      <created>1719991561031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719991561031</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1 de Julio" />
     <MESSAGE value="2 de Julio" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 de Julio" />
+    <MESSAGE value="3 de Julio" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 de Julio" />
   </component>
 </project>
