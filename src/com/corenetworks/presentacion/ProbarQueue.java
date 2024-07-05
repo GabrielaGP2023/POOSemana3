@@ -21,7 +21,6 @@ public class ProbarQueue {
 //        System.out.println("Sacar de la filla");
 //        System.out.println(filaSupermercado.poll());
 //        System.out.println("Cómo queda la fila ? " + filaSupermercado);
-
         //Declarar una cola de alumnos con el nombre de filaDeInscripcion
         int opcion;
         do{
@@ -64,9 +63,6 @@ public class ProbarQueue {
             }
         }
         filaDeInscripcion.offer(a1);
-        System.out.println("---Comprobación---");
-        System.out.println(filaDeInscripcion);
-
     }
 
     public static void mostrarMenu(){
