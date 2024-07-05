@@ -1,6 +1,8 @@
 package com.corenetwoks.modelo;
 
-public class Factura {
+import java.util.Objects;
+
+public class Factura extends Object {
     private int idFactura;
     private int idCliente;
 
@@ -10,6 +12,19 @@ public class Factura {
                 "idFactura=" + idFactura +
                 ", idCliente=" + idCliente +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Factura factura = (Factura) o;
+        return idFactura == factura.idFactura;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(idFactura);
     }
 
     public void comprobarFactura() throws Exception {

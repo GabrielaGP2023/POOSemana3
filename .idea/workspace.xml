@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bc71dcf-4f1c-497f-a6d0-227f71a69062" name="Changes" comment="3 de Julio final">
-      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Pedidos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarPedidos.java" afterDir="false" />
+    <list default="true" id="9bc71dcf-4f1c-497f-a6d0-227f71a69062" name="Changes" comment="4 de julio">
+      <change afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/EstadoFactura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/EjercicosPracticosAntesExamen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarFactura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/corenetwoks/modelo/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarAlumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarAlumno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -39,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EjercicosPracticosAntesExamen.executor": "Run",
     "Application.ProbarAlumno.executor": "Run",
     "Application.ProbarCafetera.executor": "Run",
     "Application.ProbarCoche.executor": "Run",
@@ -46,11 +49,12 @@
     "Application.ProbarFactura.executor": "Run",
     "Application.ProbarFecha.executor": "Run",
     "Application.ProbarPedidos.executor": "Run",
+    "Application.ProbarQueue.executor": "Run",
     "Application.PruebaLinea.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ggp20/Documents/Cursos2023/Probar_Proyectos_alumnos/Programador-Java-SE-main/Java_Basicos",
+    "last_opened_file_path": "C:/Users/ggp20/Documents/Cursos2023/IFCD0609-CoreNetworks/PruebaConexionBBDD",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -62,7 +66,20 @@
       <recent name="C:\Users\ggp20\Documents\Cursos2024\IFCT0609-CoreNetworks-2024\Proyectos\POOSemana3\src\com\corenetwoks\modelo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProbarPedidos">
+  <component name="RunManager" selected="Application.ProbarQueue">
+    <configuration name="EjercicosPracticosAntesExamen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.EjercicosPracticosAntesExamen" />
+      <module name="POOSemana3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProbarCafetera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarCafetera" />
       <module name="POOSemana3" />
@@ -89,19 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProbarColecciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarColecciones" />
-      <module name="POOSemana3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProbarPedidos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarPedidos" />
       <module name="POOSemana3" />
@@ -115,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PruebaLinea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.PruebaLinea" />
+    <configuration name="ProbarQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarQueue" />
       <module name="POOSemana3" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProbarQueue" />
+        <item itemvalue="Application.EjercicosPracticosAntesExamen" />
         <item itemvalue="Application.ProbarPedidos" />
         <item itemvalue="Application.ProbarCoche" />
         <item itemvalue="Application.ProbarCafetera" />
-        <item itemvalue="Application.PruebaLinea" />
-        <item itemvalue="Application.ProbarColecciones" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720007325218</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4 de julio">
+      <option name="closed" value="true" />
+      <created>1720096732546</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720096732546</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,6 +199,7 @@
     <MESSAGE value="2 de Julio" />
     <MESSAGE value="3 de Julio" />
     <MESSAGE value="3 de Julio final" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 de Julio final" />
+    <MESSAGE value="4 de julio" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 de julio" />
   </component>
 </project>

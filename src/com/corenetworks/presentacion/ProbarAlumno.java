@@ -1,6 +1,7 @@
 package com.corenetworks.presentacion;
 
 import com.corenetwoks.modelo.Alumno;
+import com.corenetwoks.modelo.EstadoFactura;
 import com.corenetworks.excepciones.ExcepcionFueraRango;
 import com.corenetworks.excepciones.ExcepcionNotaInvalida;
 
@@ -9,6 +10,7 @@ import java.util.Scanner;
 public class ProbarAlumno {
 
     public static void main(String[] args) {
+
         Alumno a1 = new Alumno("Juan Lopez",4);
         Scanner s1 = new Scanner(System.in);
         int nota, periodo;
